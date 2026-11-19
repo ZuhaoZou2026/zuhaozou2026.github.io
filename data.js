@@ -2,22 +2,26 @@ window.PORTFOLIO = [
   {
     "title": "LTA-OM: Long-term association LiDAR–IMU odometry and mapping",
     "venue": "Journal of Field Robotics · 2024",
-    "description": "LiDAR–IMU odometry and mapping with long-term association.",
+    "description": "LiDAR–IMU odometry and mapping using long-term association, loop closure optimization, and multi-session mapping.",
     "tag": "SLAM",
     "image": "",
-    "github": "",
+    "github": "https://github.com/hku-mars/LTAOM",
     "youtube": "",
-    "paper": ""
+    "paper": "https://doi.org/10.1002/rob.22337",
+    "authors": "Zou, Z., Yuan, C., Xu, W., Li, H., Zhou, S., Xue, K., & Zhang, F.",
+    "group": "first-author"
   },
   {
-    "title": "An image-assisted high-dimensional binary descriptor for place recognition by fusing LiDAR and camera measurements",
+    "title": "iBTC: An Image-Assisting Binary and Triangle Combined Descriptor for Place Recognition by Fusing LiDAR and Camera Measurements",
     "venue": "IEEE Robotics and Automation Letters · 2024",
-    "description": "Multimodal place recognition combining LiDAR and camera measurements.",
+    "description": "A compound descriptor combining global scene geometry, local point-cloud geometry, and image details for multimodal place recognition.",
     "tag": "Place recognition",
     "image": "",
-    "github": "",
+    "github": "https://github.com/hku-mars/iBTC",
     "youtube": "",
-    "paper": ""
+    "paper": "https://ieeexplore.ieee.org/document/10720786",
+    "authors": "Zou, Z., Zheng, C., Yuan, C., Zhou, S., Xue, K., & Zhang, F.",
+    "group": "first-author"
   },
   {
     "title": "Robust equipment-free calibration of low-cost inertial measurement units",
@@ -27,26 +31,80 @@ window.PORTFOLIO = [
     "image": "",
     "github": "",
     "youtube": "",
-    "paper": ""
+    "paper": "https://doi.org/10.1109/TIM.2023.3234081",
+    "authors": "Zou, Z., Li, L., Hu, X., Zhu, Y., Xue, B., Wu, J., & Liu, M.",
+    "group": "first-author"
   },
   {
-    "title": "First-author work 4",
-    "venue": "Details coming soon",
-    "description": "Reserved for an additional first-author project or paper.",
-    "tag": "Coming soon",
+    "title": "FAST-MC-LIVO: Fast Multi-Camera LiDAR-Inertial-Visual Odometry for Panoramic RGB Map Construction",
+    "authors": "Zou, Z., Zheng, C., Liu, X., & Zhang, F.",
+    "venue": "IEEE Transactions on Robotics · Under review; first-round revision completed",
+    "description": "Multi-camera, LiDAR, and inertial sensor fusion for panoramic RGB map construction. Produces mapping outputs that can support Gaussian Splatting data preparation.",
+    "tag": "Multi-camera SLAM",
     "image": "",
     "github": "",
     "youtube": "",
-    "paper": ""
+    "paper": "",
+    "group": "first-author"
   },
   {
-    "title": "First-author work 5",
-    "venue": "Details coming soon",
-    "description": "Reserved for an additional first-author project or paper.",
-    "tag": "Coming soon",
+    "title": "ScreenCalib: Can a Display Be Used for Rapid LiDAR-Camera Extrinsic Calibration?",
+    "authors": "Zou, Z., Hu, X., Jiao, J., & Wu, J.",
+    "venue": "IEEE Transactions on Instrumentation and Measurement · Under review",
+    "description": "Display-based rapid extrinsic calibration between LiDAR and camera sensors.",
+    "tag": "LiDAR–camera calibration",
+    "image": "",
+    "github": "https://github.com/ZuhaoZou2026/ScreenCalib",
+    "youtube": "",
+    "paper": "https://arxiv.org/abs/2610.28571",
+    "group": "first-author"
+  },
+  {
+    "title": "FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry",
+    "authors": "Zheng, C., Xu, W., Zou, Z., Hua, T., Yuan, C., He, D., et al.",
+    "venue": "IEEE Transactions on Robotics · 2024",
+    "description": "Direct LiDAR–inertial–visual odometry combining complementary sensing modalities for robot localization and mapping.",
+    "tag": "Sensor fusion",
+    "image": "",
+    "github": "https://github.com/hku-mars/FAST-LIVO2",
+    "youtube": "",
+    "paper": "https://arxiv.org/abs/2408.14035",
+    "group": "cooperative"
+  },
+  {
+    "title": "Globally Optimal Symbolic Hand-Eye Calibration",
+    "authors": "Wu, J., Liu, M., Zhu, Y., Zou, Z., Dai, M. Z., Zhang, C., et al.",
+    "venue": "IEEE/ASME Transactions on Mechatronics · Vol. 26, No. 3, pp. 1369–1379",
+    "description": "Globally optimal symbolic hand-eye calibration for robotic systems.",
+    "tag": "Hand-eye calibration",
     "image": "",
     "github": "",
     "youtube": "",
-    "paper": ""
+    "paper": "https://doi.org/10.1109/TMECH.2020.3019306",
+    "group": "cooperative"
+  },
+  {
+    "title": "STD: Stable Triangle Descriptor for 3D Place Recognition",
+    "authors": "Yuan, C., Lin, J., Zou, Z., Hong, X., & Zhang, F.",
+    "venue": "IEEE International Conference on Robotics and Automation · 2023 · pp. 1897–1903",
+    "description": "A stable triangle descriptor for 3D place recognition and LiDAR loop closure detection.",
+    "tag": "3D place recognition",
+    "image": "",
+    "github": "https://github.com/hku-mars/STD",
+    "youtube": "",
+    "paper": "https://arxiv.org/abs/2209.12435",
+    "group": "cooperative"
+  },
+  {
+    "title": "Large-Scale Multi-Session Point-Cloud Map Merging",
+    "authors": "Wei, H., et al., including Zou, Z.",
+    "venue": "IEEE Robotics and Automation Letters · 2025",
+    "description": "Multi-session point-cloud map merging for combining LiDAR submaps at large scale.",
+    "tag": "Multi-session mapping",
+    "image": "",
+    "github": "https://github.com/hku-mars/LAMM",
+    "youtube": "",
+    "paper": "https://ieeexplore.ieee.org/document/10759717",
+    "group": "cooperative"
   }
 ];

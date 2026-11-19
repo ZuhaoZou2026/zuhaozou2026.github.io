@@ -1,5 +1,23 @@
 window.PORTFOLIO = [
   {
+    "title": "FAST-MC-LIVO: Fast Multi-Camera LiDAR-Inertial-Visual Odometry for Panoramic RGB Map Construction",
+    "authors": "Zou, Z., Zheng, C., Liu, X., & Zhang, F.",
+    "venue": "IEEE Transactions on Robotics · Under review; first-round revision completed",
+    "description": "Multi-camera, LiDAR, and inertial sensor fusion for panoramic RGB map construction. Produces mapping outputs that can support Gaussian Splatting data preparation.",
+    "tag": "SLAM, multi-camera-LiDAR-inertial fusion",
+    "image": "",
+    "github": "",
+    "youtube": "",
+    "paper": "",
+    "group": "first-author",
+    "zh": {
+      "title": "FAST-MC-LIVO：面向全景彩色地图构建的快速多相机激光雷达–惯性–视觉里程计",
+      "venue": "IEEE Transactions on Robotics（机器人学汇刊）· 审稿中；已完成第一轮返修",
+      "description": "融合多相机、激光雷达与惯性传感器，构建全景彩色地图。建图输出可用于三维高斯泼溅的数据准备。",
+      "tag": "SLAM、多相机–激光雷达–惯性融合"
+    }
+  },
+  {
     "title": "LTA-OM: Long-term association LiDAR–IMU odometry and mapping",
     "venue": "Journal of Field Robotics · 2024",
     "description": "LiDAR–IMU odometry and mapping using long-term association, loop closure optimization, and multi-session mapping.",
@@ -51,24 +69,6 @@ window.PORTFOLIO = [
       "venue": "IEEE Transactions on Instrumentation and Measurement（仪器与测量汇刊）· 2023",
       "description": "无需外部标定设备，完成低成本惯性传感器的鲁棒标定。",
       "tag": "传感器标定"
-    }
-  },
-  {
-    "title": "FAST-MC-LIVO: Fast Multi-Camera LiDAR-Inertial-Visual Odometry for Panoramic RGB Map Construction",
-    "authors": "Zou, Z., Zheng, C., Liu, X., & Zhang, F.",
-    "venue": "IEEE Transactions on Robotics · Under review; first-round revision completed",
-    "description": "Multi-camera, LiDAR, and inertial sensor fusion for panoramic RGB map construction. Produces mapping outputs that can support Gaussian Splatting data preparation.",
-    "tag": "SLAM, multi-camera-LiDAR-inertial fusion",
-    "image": "",
-    "github": "",
-    "youtube": "",
-    "paper": "",
-    "group": "first-author",
-    "zh": {
-      "title": "FAST-MC-LIVO：面向全景彩色地图构建的快速多相机激光雷达–惯性–视觉里程计",
-      "venue": "IEEE Transactions on Robotics（机器人学汇刊）· 审稿中；已完成第一轮返修",
-      "description": "融合多相机、激光雷达与惯性传感器，构建全景彩色地图。建图输出可用于三维高斯泼溅的数据准备。",
-      "tag": "SLAM、多相机–激光雷达–惯性融合"
     }
   },
   {

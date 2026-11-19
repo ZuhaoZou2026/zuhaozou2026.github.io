@@ -108,3 +108,5 @@ window.PORTFOLIO = [
     "group": "cooperative"
   }
 ];
+
+window.CONTACT = {"wechat":"ZuhaoZou","wechatQr":""};
